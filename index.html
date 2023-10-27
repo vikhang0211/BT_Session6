@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+
+        header {
+            height: 70px;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+        }
+
+        nav {
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: lightgray;
+            gap: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .welcome {
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        .body_img_list {
+            display: flex;
+            gap: 50px;
+            justify-content: center;
+        }
+        footer{
+            height: 50px;
+            margin-top: 70px;
+            background-color: black;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        @media only screen and (min-width: 768px){
+            img{
+                width: 150px;
+            }
+        }
+        @media only screen and (max-width: 600px){
+            img{
+                width: 80px;
+            }
+            .body_img_list{
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Portfolio Website</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Portfolio</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="welcome">
+        <h1>Welcome to my portfolio website</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis sit corrupti molestias? Dolorum temporibus
+            commodi blanditiis explicabo earum, quae consequatur eveniet eum magnam. Quibusdam reprehenderit qui neque
+            perspiciatis modi enim.</p>
+        <button>View portfolio</button>
+    </div>
+    <div class="welcome">
+            <h2>Featured Work</h2>
+            <div class="body_img_list">
+                <div class="body_img_item">
+                    <img src="https://picsum.photos/200" alt="not found">
+                    <p>Project 1</p>
+                </div>
+                <div class="body_img_item">
+                    <img src="https://picsum.photos/200" alt="not found">
+                    <p>Project 2</p>
+                </div>
+                <div class="body_img_item">
+                    <img src="https://picsum.photos/200" alt="not found">
+                    <p>Project 3</p>
+                </div>
+                <div class="body_img_item">
+                    <img src="https://picsum.photos/200" alt="not found">
+                    <p>Project 4</p>
+                </div>
+
+            </div>
+    </div>
+    <div class="welcome">
+        <h2>About Me</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequuntur id reiciendis quas tempora officia quisquam debitis nihil deserunt corporis architecto accusamus dolore cum aspernatur, aliquam sunt similique est magni sed!
+        Architecto odit veritatis aut, eveniet inventore quisquam nostrum modi id doloremque eaque aliquid error odio asperiores fuga vel dicta iste tempora. Nisi eaque nihil officia magni quae laboriosam corrupti dolorum.
+        Quae, laudantium, velit quisquam sunt quod suscipit est qui totam in illo, nihil accusantium? Consectetur impedit alias at possimus voluptatibus assumenda inventore ea consequatur repellat, excepturi commodi veniam nemo earum!</p>
+    </div>
+    <footer>&copy; 2023 Portfolio Website</footer>
+</body>
+
+</html>
